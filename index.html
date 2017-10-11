@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Voice over</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <style>
+        body {
+      background-color: #e6ecf0;
+      padding-top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <a class="navbar-brand voice-over" href="#" data-voice-over="Voice Over">Voice Over</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link voice-over" href="#" data-voice-over="Home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link voice-over" href="#" data-voice-over="Link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link voice-over" href="#" data-voice-over="Link 2">Link 2</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<label>Choose voice</label>
+<select id="voices"></select>
+
+
+<div class="card">
+  <div class="card-body voice-over" data-voice-over="This is some text within a card block.">
+    This is some text within a card block.
+  </div>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item voice-over" data-voice-over="Apple">Apple</li>
+  <li class="list-group-item voice-over" data-voice-over="India">India</li>
+  <li class="list-group-item voice-over" data-voice-over="हिंदी टायपिंग">हिंदी टायपिंग</li>
+</ul>
+
+
+    <script type="text/javascript" src="/static/voice-over.min.js"></script>
+  </body>
+</html>
