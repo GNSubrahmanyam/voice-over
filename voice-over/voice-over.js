@@ -3,7 +3,7 @@
  *
  *
  * @license  the MIT license
- * @version 0.1
+ * @version 1.0.0
  * @author  G Naga Subrahmanyam, https://github.com/GNSubrahmanyam
  * @created 11-Oct-2017
  * @link https://github.com/GNSubrahmanyam/voice-over
